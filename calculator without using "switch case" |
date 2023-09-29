@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b , ch;
+    int d,s,m,i,r;
+    
+    printf("enter the number:");
+    scanf("%d %d",&a,&b);
+    printf("enter values:");
+    scanf("%d",&ch);
+   if(ch==1)
+   {
+       d=a+b;
+       printf("addition:%d \n", d);
+   }
+   else if(ch==2){
+       s=a-b;
+        printf("subtraction:%d\n", s);
+   }
+   else if(ch==3){
+       m=a*b;
+        printf("multiplication:%d\n", m);
+   }
+     else if(ch==4){
+         i=a/b;
+       printf("division:%d\n", i);
+   }
+    else if(ch==5){
+        r=a%b;
+       printf("reminder:%d\n", r);
+   }
+   else{
+       printf("not vaild");
+   }
+   
+    
+    return 0;
+}
