@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   printf("printf the size of the data types in c:");
+   printf(" \nsize of integer %d ",sizeof(int));
+    printf(" \nsize of char %d ",sizeof(char));
+     printf(" \nsize of float %d ",sizeof(float));
+      printf(" \nsize of double %d ",sizeof(double));
+      return 0;
+}
