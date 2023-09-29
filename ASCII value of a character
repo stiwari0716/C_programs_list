@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   char a;
+   printf("enter any char :");
+   scanf("%c" ,&a);
+   printf("%d", a);
+
+    return 0;
+}
