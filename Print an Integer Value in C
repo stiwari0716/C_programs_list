@@ -1,0 +1,7 @@
+void main() {
+    // Write C code here
+    int a ;
+    printf("enter the integer :");
+    scanf("%d",&a);
+    printf("%d",a);
+}
