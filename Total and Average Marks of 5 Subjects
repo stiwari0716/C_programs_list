@@ -1,0 +1,15 @@
+ #include <stdio.h>
+
+int main() {
+    // Write C code here
+  int sub1,sub2,sub3,sub4,sub5;
+  int sum =0, avg;
+  printf("enter the number of five subject :");
+  scanf("%d%d%d%d%d",&sub1,&sub2,&sub3,&sub4,&sub5);
+  printf("sum of subject ");
+  sum = sub1+sub2+sub3+sub4+sub5;
+ printf("%d \n",sum);
+ avg=sum/5;
+ printf("average of sum %f",avg);
+    return 0;
+}
