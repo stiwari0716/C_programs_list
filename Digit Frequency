@@ -1,0 +1,22 @@
+include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+     char s;
+     int a[]={0,0,0,0,0,0,0,0,0,0};
+     
+     while (scanf("%c",&s)==1) {
+     if(s>='0'&&s<='9'){
+         char digit_char =s;
+         int digit_value = digit_char - '0';
+         a[digit_value]+=1;
+         
+     }
+     }
+     for(int i=0;i<10;i++)
+        printf("%d ",a[i]);  
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+     
+    return 0;
+}
