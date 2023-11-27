@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   char arr[5]={'S','M','R','I','T'};
+   char name[5] ={'S','U','R','B','I'};
+   for(int i=0;i<5;i++){
+       if(name[i]==arr[i]){
+           printf("%d",i);
+       }
+   }
+
+    return 0;
+}
